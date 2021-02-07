@@ -18,7 +18,7 @@ setup(
     long_description=readme,
     author='Rajan Manickavasagam',
     author_email='rajan.manickavasagam@gmail.com',
-    url='https://github.com/rajanm/metro-payment,
+    url='https://github.com/coding-excercises/metro-payment',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
