@@ -7,3 +7,5 @@ install:
 # command to run tests
 script:
   - pytest --cov-report term-missing --cov=src tests/
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
